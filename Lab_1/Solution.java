@@ -10,6 +10,8 @@ public class Solution {
  */
     public static char[][] CreateMatrixSquare(int rowsNcolumns , char symbol) {
 
+
+
         char[][] matrix = new char[rowsNcolumns][rowsNcolumns];
         
         int centre = rowsNcolumns/2;
@@ -18,11 +20,13 @@ public class Solution {
             if(i < centre){
                 for(int j = 0 ; j < centre ; j++){
                     matrix[i][j] = symbol;
+                    matrix[i][centre - 1] = 'r';
                 }              
             }
             if(i >= centre){
                 for(int j = centre ; j < rowsNcolumns ; j++){
                     matrix[i][j] = symbol;
+                    matrix[i][rowsNcolumns - 1] = 'r';
                 }
             }
         

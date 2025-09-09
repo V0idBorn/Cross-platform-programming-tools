@@ -1,5 +1,13 @@
+/**
+ * Class with methods that help to solve the task
+ */
 public class Solution {
-
+/**
+ * 
+ * @param rowsNcolumns number of rows and columns for square matrix
+ * @param symbol symbol that matrix will be filed by
+ * @return method return char matrix
+ */
     public static char[][] CreateMatrixSquare(int rowsNcolumns , char symbol) {
 
         char[][] matrix = new char[rowsNcolumns][rowsNcolumns];
@@ -22,6 +30,11 @@ public class Solution {
         return matrix;
     }
 
+    /**
+     * Method for output matrix in terminal
+     * @param matrix char matrix for printing in console
+     * @param rowsNcolumns number of rows and columns for square matrix
+     */
  public static void printMatrix(char[][] matrix , int rowsNcolumns){
     for (int i = 0; i < rowsNcolumns; i++) {
         for (int j = 0; j < rowsNcolumns; j++) {

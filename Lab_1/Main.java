@@ -5,7 +5,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter number of rows and columns: ");
+        System.out.print("\nEnter number of rows and columns: ");
 
         int rowsNcolumns = scanner.nextInt();
 

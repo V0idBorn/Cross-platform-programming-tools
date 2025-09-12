@@ -1,6 +1,8 @@
 package Lab_3;
 
-public class sea extends water{
+import Lab_3.interfaces.SeaInterface;
+
+public class sea extends water implements SeaInterface{
     private double salinity;    
     private int numberOfIslands;    
     private String climateZone;     
@@ -18,6 +20,14 @@ public class sea extends water{
         this.adjoiningOceans = "unknown";
         this.largestPort = "unknown";
 
+    }
+
+    public void paintSmth(){
+        System.out.println("This is realisation of interface 'Art' by class sea");
+    }
+
+    public void SeaInterfaceWork(){
+         System.out.println("This is realisation of interface 'SeaInterface' by class sea");
     }
 
     @Override
@@ -51,4 +61,6 @@ public class sea extends water{
         System.out.println("Largest port: " + largestPort);
 
     }
+
+    
 }

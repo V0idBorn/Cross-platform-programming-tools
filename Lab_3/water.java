@@ -1,4 +1,5 @@
 package Lab_3;
+import Lab_3.interfaces.Art;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -6,7 +7,7 @@ import java.io.PrintWriter;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public abstract class water {
+public abstract class water implements Art {
     private String name;        
     private String type;        
     private double area;        

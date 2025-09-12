@@ -1,4 +1,4 @@
-package Lab_2;
+package Lab_3;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.io.PrintWriter;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class water {
+public abstract class water {
     private String name;        
     private String type;        
     private double area;        
@@ -15,6 +15,8 @@ public class water {
     private double waterVolume; 
     private boolean isFresh;    
     private String origin;  
+
+    abstract void abstractMethod();
 
     public water(){
         this.name = "Your custom water";
@@ -72,7 +74,6 @@ public class water {
         System.out.println("Water Volume: " + waterVolume);
         System.out.println("Is Fresh: " + isFresh);
         System.out.println("Origin: " + origin);
-        System.out.println("\n");
     }
 
     public void calculateWaterVolume() {
@@ -103,8 +104,6 @@ public class water {
         } catch (IOException e) {
             System.err.println("Logs cleaning ocure an error" + e.getMessage());
         }
-}
-    
-    
+    }
 
 }

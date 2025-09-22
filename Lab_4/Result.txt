@@ -1,0 +1,1 @@
+Result of y=sin(x)/tg(4x) with x = 4.0=-2.5173696946575497

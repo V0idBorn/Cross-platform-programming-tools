@@ -1,1 +1,2 @@
 Result of y=sin(x)/tg(4x) with x = 4.0=-2.5173696946575497
+Result of y=sin(x)/tg(4x) with x = 7.0= -2.334461577828655

@@ -1,2 +1,5 @@
 Result of function y=sin(x)/tg(4*x) whare x = 12 is = -0.44709669002026287
 Result of function y=sin(x)/tg(4*x) whare x = 5 is = -0.4286344606268105
+Result of function y=sin(x)/tg(4*x) whare x = 7 is = -2.334461577828655
+Result of function y=sin(x)/tg(4*x) whare x = 2 is = -0.13372588422521692
+Result of function y=sin(x)/tg(4*x) whare x = 9 is = 0.053173347820545176

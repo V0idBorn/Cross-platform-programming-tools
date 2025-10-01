@@ -1,0 +1,3 @@
+Result of y=sin(x)/tg(4x) with x = 5.0= -0.4286344606268105
+Result of y=sin(x)/tg(4x) with x = 78.0 = 0.3429986945631112
+Result of y=sin(x)/tg(4x) with x = 7.0 = -2.334461577828655
